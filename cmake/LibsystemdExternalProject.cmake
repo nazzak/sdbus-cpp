@@ -14,6 +14,7 @@ if (NOT CAP_FOUND)
     find_library(CAP_LIBRARIES cap) # Compat with Ubuntu 14.04 which ships libcap w/o .pc file
 endif()
 
+
 set(LIBSYSTEMD_VERSION "242" CACHE STRING "libsystemd version (>=239) to build and incorporate into libsdbus-c++")
 
 if(NOT CMAKE_BUILD_TYPE)
