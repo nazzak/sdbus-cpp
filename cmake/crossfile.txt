@@ -1,0 +1,3 @@
+[binaries]
+c = '${CMAKE_C_COMPILER}'
+cpp = 'CMAKE_CXX_COMPILER'
